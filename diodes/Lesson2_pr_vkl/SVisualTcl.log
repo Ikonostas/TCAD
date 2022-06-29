@@ -1,0 +1,23 @@
+###########################################
+# Sentaurus Visual Q-2019.12.
+# Tcl log file.
+#------------------------------------------
+# Date: окт. 08, 2021. 11:37:16.
+# Version: 30.0.1295 (1.1295)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: fet33.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-193.6.3.el8_2.x86_64.
+###########################################
+
+load_file /mnt/diskX/8209/Koryagin/Lesson2_pr_vkl/Lesson2_n1_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> Lesson2_n1_des
+create_curve -plot Plot_1 -dataset {Lesson2_n1_des} -axisX {emitter_cont InnerVoltage} -axisY {emitter_cont TotalCurrent}
+#-> Curve_1
+exit 0
+ 

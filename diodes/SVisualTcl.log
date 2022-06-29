@@ -1,0 +1,27 @@
+###########################################
+# Sentaurus Visual Q-2019.12.
+# Tcl log file.
+#------------------------------------------
+# Date: окт. 22, 2021. 11:28:40.
+# Version: 30.0.1295 (1.1295)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: fet43.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-193.6.3.el8_2.x86_64.
+###########################################
+
+load_file /mnt/diskX/8209/Ilin/Lesson_1_new/Lesson_1_new1_msh.tdr
+create_plot -dataset Lesson_1_new1_msh
+select_plots {Plot_Lesson_1_new1_msh}
+#-> Plot_Lesson_1_new1_msh
+#-> Plot_Lesson_1_new1_msh
+#-> Lesson_1_new1_msh
+set_material_prop {Silicon} -plot Plot_Lesson_1_new1_msh -geom Lesson_1_new1_msh -show_mesh
+#-> 0
+zoom_plot -plot Plot_Lesson_1_new1_msh -factor 0.909091
+zoom_plot -plot Plot_Lesson_1_new1_msh -factor 0.909091
+zoom_plot -plot Plot_Lesson_1_new1_msh -factor 0.909091
+zoom_plot -plot Plot_Lesson_1_new1_msh -factor 0.909091
+exit 0
+ 

@@ -1,0 +1,76 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version Q-2019.12                           ***
+***                       (1.1295, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 2005-2019                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Nov 14 15:21:16 PST 2019 on: tcadprod35
+Running on: fet43
+Hardware type: x86_64
+OS name: Linux
+OS release: 4.18.0-193.6.3.el8_2.x86_64
+OS version: #1 SMP Wed Jun 10 11:09:32 UTC 2020
+Process ID: 3932
+
+Flags used:
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  33825 (tree) + 3137 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (34854 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   34850 points.
+   67584 elements.
+       4 regions.
+Max. connectivity = 6 located at (0.00916443;0.146484)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %   21   6       4   2   2   4       6  55                                
+---------------------------------------------------------------------------------
+minAngle: 0.658872  maxAngle: 90
+nVerts = 34850  nTris = 67584  nMats = 2
+max connectivity (tris per node): 6
+bmin: -0 -0
+bmax: 75.075 150
+min edgeLength: 0.00168457  [near (0.0741577 1.31836)]
+min volume: 0.000123382  max volume: 0.687332  Total volume: 11261.2
+bbox  volume: 11261.2
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: emitter  Total volume: 11.25
+Interpolating data...done.
+done.
+Saving file /mnt/diskX/8209/Koryagin/Lesson_1_new/Lesson_1_new_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:      2.18s       100%
+                       Rate of #Vertices:   1.6e+04
+                          Rate of #Edges:  3.19e+04
+                          Rate of #Faces:   3.1e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
