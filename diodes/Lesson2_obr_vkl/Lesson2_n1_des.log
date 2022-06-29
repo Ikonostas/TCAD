@@ -1,0 +1,2064 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version Q-2019.12                           ***
+***                       (1.1295, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1994-2019                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: fet43
+	Operating System: Linux rel. 4.18.0-193.6.3.el8_2.x86_64 ver. #1 SMP Wed Jun 10 11:09:32 UTC 2020
+	Machine Type: x86_64
+	Process ID: 6369
+	Number of processors: 6
+	Domain Name: (none)
+	Date: Fri Sep 17 13:04:56 2021  (MSK)
+
+Fri Sep 17 13:04:56 2021: checked out 1 sdevice license(s)
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_vsource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_isource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_vsource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_sRL.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_isource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_pGC.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/bs_psource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_SRL1.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/satinductor.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/MOS_harness.ccf
+Parsing circuit file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/ferroelectric.ccf
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/ferroelectric.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/MOS_harness.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm/satinductor.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_SRL1.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/bs_psource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_pGC.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_isource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_sRL.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_vsource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_isource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295/sd_hb_vsource.so.linux64
+
+Input source: Lesson2.cmd
+
+===============================
+
+Output file: Lesson2_n1_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295 /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice
+
+CMIPath file: /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/sdevice-30.0.1295 /usr/synopsys/sentaurus/Q_2019.12/tcad/current/linux64/lib/scm
+
+SPICEPath file: /usr/synopsys/sentaurus/Q_2019.12/tcad/current/lib/sdevice-30.0.1295/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    eqPoisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    FEPolarization : 1.0000e-05
+    FEPolarizationX : 1.0000e-05
+    FEPolarizationY : 1.0000e-05
+    FEPolarizationZ : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    TrapPDE : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[x] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[y] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[z] : 1.0000e-03
+    Mechanics : 1.0000e-03
+    ExternalTransportSolver : 1.0000e-03
+    ReactionDiffusionPDE : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    eqPoisson : 1
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    FEPolarization : 0.025852
+    FEPolarizationX : 0.025852
+    FEPolarizationY : 0.025852
+    FEPolarizationZ : 0.025852
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    TrapPDE : 1.0000e-05
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+    Landau-Lifshitz-Gilbert[x] : 1
+    Landau-Lifshitz-Gilbert[y] : 1
+    Landau-Lifshitz-Gilbert[z] : 1
+    Mechanics : 1
+    ExternalTransportSolver : 1
+    ReactionDiffusionPDE : 1
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 100
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| (transient): 1.0000e+15
+  Maximum |rhs| (non-transient): 1.0000e+100
+  Maximum |rhs| factor : 1.0000e+10
+  Maximum |rhs| factor1 : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "emitter_cont" : 0.0000e+00 V (Ohmic), area factor : 1
+    "bazza_cont" : 0.0000e+00 V (Ohmic), area factor : 1
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: Lesson1_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    MIMCurrent file: Lesson2_mimcur_des.plt
+    MIMBand file: Lesson2_mimband_des.tdr
+    MIMSensitivity file: Lesson2_mimsa_des.tdr
+    no Load file
+    no Save file
+    Plot file: Lesson2_n1_des.tdr
+    no DevFieldsName file
+    AutoNewtonPlot file: Lesson2_n1_des_%ld_des.tdr
+    no Path file
+    no Lifetime file
+    no Temperature file
+    Current file: Lesson2_n1_des.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: Silicon.par
+    ParameterPath directories: 
+    no Piezo file
+    no mcDOS file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no IlluminationSpectrum file
+    no SpectralPlot file
+    no OpticalSolverInput file
+    no OpticalGenerationInput file
+    no OpticalGenerationOutuput file
+    no OptGenTransientScaling file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    With usage of best vertex in element (maximum element-vertex volume angle) for impact ionization models
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Without Piezo
+    Without Anisotropic Material Properties
+    Without Avalanche-Generation 
+    Without Alpha Particle
+    Without Heavy Ion
+    Without polarization
+    Volume charge density: 0.0000e+00 cm^-3
+    Device Temperature = 3.0000e+02 K
+    Electron Quasi Fermi Potential: 0.0000e+00 V
+    Hole Quasi Fermi Potential: 0.0000e+00 V
+    Without MagneticField
+    With SingletExciton Barrier Type
+    Intrinsic density models:
+      default bandgap model
+      Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+    default affinity model
+    default effective mass model
+    Electron mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      no bulk trap Coulomb scattering 
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Hole mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      no bulk trap Coulomb scattering 
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Energy relaxation time model: according to formula in parameter file
+    Schottky resistance model: default bult-in model
+    Lattice thermal conductivity model: according to formula in parameter file
+    Metal Resistivity model: according to formula in parameter file
+    Thermo Electric Power model: extraploted Si data
+    Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+    Lattice heat capacity model: temperature dependent
+    no piezoelectric polarization model
+    Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+  Process information for extraction purposes:
+    none
+  Plot variables:
+    eDensity
+    hDensity
+    eCurrentDensity
+    hCurrentDensity
+    ElectrostaticPotential
+    SpaceCharge
+    ElectricField
+    eMobility
+    hMobility
+    eVelocity
+    hVelocity
+    DopingConcentration
+    DonorConcentration
+    AcceptorConcentration
+
+------------------------------------------------
+  NoisePlot variables:
+    none
+  Plot groups:
+    none
+
+------------------------------------------------
+  CurrentPlot variables:
+    none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 100 
+    )
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.2, 
+      Increment : 1.35, Decrement : 2, 
+      Goal values :
+        Contact emitter_cont : 100V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 100 
+        )
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'Lesson1_msh.tdr' ... 
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 7618.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 22787
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Computing Delaunay coefficients ...   done.
+  Delaunay coefficients time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+  Parallel Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.0000e+00 s
+      New Parameters time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+Info for all regions (NumberOfRegions = 2):
+        ElementWithMinVolume(  8263) Vertex0( 2261)( 7.331543e-02, 4.599609e+00) Volume = 2.467632e-05 um3 (2.19e-08 from TotalVolume)
+          ElementWithMinEdge(  5458) Vertex0(   22)( 7.331543e-02, 2.929688e-02) Length = 1.684570e-03 um
+              MaxFlatElement(  4921) Vertex0( 7047)( 1.466309e-01, 1.406250e+01)  Angle = 7.726375e+01 degrees
+         ElementWithMinAngle( 14637) Vertex0( 4261)( 7.500000e-02, 1.500000e+01)  Angle = 3.290884e+00 degrees
+   ElementWithMaxQualityEdge( 10647) Vertex0( 4261)( 7.331543e-02, 8.496094e+00)    R/L = 8.710015e+00 
+ ElementWithMaxQualityHeight( 10647) Vertex0( 4261)( 7.331543e-02, 8.496094e+00)    R/H = 8.724402e+00 
+
+Info for semiconductor regions (NumberOfRegions = 2):
+        ElementWithMinVolume(  8263) Vertex0( 2261)( 7.331543e-02, 4.599609e+00) Volume = 2.467632e-05 um3 (2.19e-08 from TotalVolume)
+          ElementWithMinEdge(  5458) Vertex0(   22)( 7.331543e-02, 2.929688e-02) Length = 1.684570e-03 um
+              MaxFlatElement(  4921) Vertex0( 7047)( 1.466309e-01, 1.406250e+01)  Angle = 7.726375e+01 degrees
+         ElementWithMinAngle( 14637) Vertex0( 4261)( 7.500000e-02, 1.500000e+01)  Angle = 3.290884e+00 degrees
+   ElementWithMaxQualityEdge( 10647) Vertex0( 4261)( 7.331543e-02, 8.496094e+00)    R/L = 8.710015e+00 
+ ElementWithMaxQualityHeight( 10647) Vertex0( 4261)( 7.331543e-02, 8.496094e+00)    R/H = 8.724402e+00 
+
+   NumberOfEdges              =  22787 
+   NumberOfGeometricalEdges   =  22257 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =      7; vertex(115) = ( 1.466309e-01,  5.859375e-02) [um]
+   MaxNumberOfElementsPerEdge =      2; edge(0) = (80, 87) 
+                                        vertex(80) = ( 8.247986e-02,  2.929688e-02) [um]
+                                        vertex(87) = ( 9.164429e-02,  5.859375e-02) [um]
+
+                        NumberOfVertices =   8148 
+                        NumberOfElements =  14640 
+                       NumberOfTriangles =  14640  (100.00 %)
+                      NumberOfRectangles =      0  ( 0.00 %)
+                  NumberOfObtuseElements =      0  ( 0.00 %)
+
+  VertexWithMaxMeasure( 7578)( 5.630625e+01, 1.406250e+01)
+  MaxVertMeasure(8.797852e+00)/VertVolume(4.398926e+00) = 2.00e+00
+
+
+/-------- Region non-Delaunay elements -----------------------------------------------------------------
+ Region      Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name        [um2]          [um2]           [%]                   Elements              [um2]   [%]   
+ -------------------------------------------------------------------------------------------------------
+ bazza    1.1250000e+03  1.1250000e+03     2.4e-12      5424       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ emitter  1.1250000e+00  1.1250000e+00     4.6e-13      9216       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ .......................................................................................................
+ Total    1.1261250e+03  1.1261250e+03     9.0e-11     14640       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\-------------------------------------------------------------------------------------------------------
+    done.
+  done.
+  (times: wallclock = 0.02 s, tcpu = 0.01 s)
+done.
+Reading doping 'Lesson1_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file 'Silicon.par' ...
+---------------------------------------------------
+ Reading parameters for default parameter set
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	ComplexRefractiveIndex: Formula = 3, instead of: 1 [1]
+
+	Differences compared with default parameters:
+	ComplexRefractiveIndex: Ck_carr_e = 0.0000e+00, instead of: 3.7100e-18 [cm^2]
+	ComplexRefractiveIndex: Ck_carr_h = 0.0000e+00, instead of: 3.3300e-18 [cm^2]
+	QuantumPotentialParameters(hole): gamma = 10, instead of: 5.6 [1]
+	EnormalMob_100(elec): B = 2.7100e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_100(elec): C = 1.3600e+04, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_100(elec): lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_100(elec): delta = 3.5800e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_100(elec): A = 2.58, instead of: 2 [1]
+	EnormalMob_100(elec): alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_100(elec): nu = 0.0767, instead of: 1 [1]
+	EnormalMob_100(elec): eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_100(hole): B = 1.1300e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_100(hole): C = 3.0500e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_100(hole): lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_100(hole): delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_100(hole): A = 2.18, instead of: 2 [1]
+	EnormalMob_100(hole): alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_100(hole): nu = 0.123, instead of: 1 [1]
+	EnormalMob_100(hole): eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_100(elec)_aniso: B = 2.7100e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_100(elec)_aniso: C = 1.3600e+04, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_100(elec)_aniso: lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_100(elec)_aniso: delta = 3.5800e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_100(elec)_aniso: A = 2.58, instead of: 2 [1]
+	EnormalMob_100(elec)_aniso: alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_100(elec)_aniso: nu = 0.0767, instead of: 1 [1]
+	EnormalMob_100(elec)_aniso: eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_100(hole)_aniso: B = 1.1300e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_100(hole)_aniso: C = 3.0500e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_100(hole)_aniso: lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_100(hole)_aniso: delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_100(hole)_aniso: A = 2.18, instead of: 2 [1]
+	EnormalMob_100(hole)_aniso: alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_100(hole)_aniso: nu = 0.123, instead of: 1 [1]
+	EnormalMob_100(hole)_aniso: eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_110(elec): B = 1.8050e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_110(elec): C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110(elec): lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_110(elec): delta = 1.7900e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_110(elec): A = 2.688, instead of: 2 [1]
+	EnormalMob_110(elec): alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110(elec): nu = 0.0767, instead of: 1 [1]
+	EnormalMob_110(elec): eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_110(hole): B = 3.0200e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_110(hole): C = 1.6720e+04, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110(hole): lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_110(hole): delta = 1.2300e+16, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_110(hole): A = 2.18, instead of: 2 [1]
+	EnormalMob_110(hole): alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110(hole): nu = 0.123, instead of: 1 [1]
+	EnormalMob_110(hole): eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_110(elec)_aniso: B = 1.8050e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_110(elec)_aniso: C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110(elec)_aniso: lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_110(elec)_aniso: delta = 1.7900e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_110(elec)_aniso: A = 2.688, instead of: 2 [1]
+	EnormalMob_110(elec)_aniso: alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110(elec)_aniso: nu = 0.0767, instead of: 1 [1]
+	EnormalMob_110(elec)_aniso: eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_110(hole)_aniso: B = 3.0200e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_110(hole)_aniso: C = 1.6720e+04, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110(hole)_aniso: lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_110(hole)_aniso: delta = 1.2300e+16, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_110(hole)_aniso: A = 2.18, instead of: 2 [1]
+	EnormalMob_110(hole)_aniso: alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110(hole)_aniso: nu = 0.123, instead of: 1 [1]
+	EnormalMob_110(hole)_aniso: eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_110/100(elec): B = 1.8050e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_110/100(elec): C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110/100(elec): lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_110/100(elec): delta = 1.7900e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_110/100(elec): A = 2.688, instead of: 2 [1]
+	EnormalMob_110/100(elec): alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110/100(elec): nu = 0.0767, instead of: 1 [1]
+	EnormalMob_110/100(elec): eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_110/100(hole): B = 3.0200e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_110/100(hole): C = 8.3600e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110/100(hole): lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_110/100(hole): delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_110/100(hole): A = 2.18, instead of: 2 [1]
+	EnormalMob_110/100(hole): alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110/100(hole): nu = 0.123, instead of: 1 [1]
+	EnormalMob_110/100(hole): eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_110/100(elec)_aniso: B = 1.8050e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_110/100(elec)_aniso: C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110/100(elec)_aniso: lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_110/100(elec)_aniso: delta = 1.7900e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_110/100(elec)_aniso: A = 2.688, instead of: 2 [1]
+	EnormalMob_110/100(elec)_aniso: alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110/100(elec)_aniso: nu = 0.0767, instead of: 1 [1]
+	EnormalMob_110/100(elec)_aniso: eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_110/100(hole)_aniso: B = 3.0200e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_110/100(hole)_aniso: C = 8.3600e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_110/100(hole)_aniso: lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_110/100(hole)_aniso: delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_110/100(hole)_aniso: A = 2.18, instead of: 2 [1]
+	EnormalMob_110/100(hole)_aniso: alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_110/100(hole)_aniso: nu = 0.123, instead of: 1 [1]
+	EnormalMob_110/100(hole)_aniso: eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_111(elec): B = 3.6100e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_111(elec): C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_111(elec): lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_111(elec): delta = 3.5800e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_111(elec): A = 2.58, instead of: 2 [1]
+	EnormalMob_111(elec): alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_111(elec): nu = 0.0767, instead of: 1 [1]
+	EnormalMob_111(elec): eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_111(hole): B = 1.1300e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_111(hole): C = 3.0500e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_111(hole): lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_111(hole): delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_111(hole): A = 2.18, instead of: 2 [1]
+	EnormalMob_111(hole): alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_111(hole): nu = 0.123, instead of: 1 [1]
+	EnormalMob_111(hole): eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	EnormalMob_111(elec)_aniso: B = 3.6100e+07, instead of: 4.7500e+07 [cm/s]
+	EnormalMob_111(elec)_aniso: C = 5.1000e+03, instead of: 5.8000e+02 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_111(elec)_aniso: lambda = 0.0233, instead of: 0.125 [1]
+	EnormalMob_111(elec)_aniso: delta = 3.5800e+18, instead of: 5.8200e+14 [cm^2/(Vs)]
+	EnormalMob_111(elec)_aniso: A = 2.58, instead of: 2 [1]
+	EnormalMob_111(elec)_aniso: alpha = 2.7400e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_111(elec)_aniso: nu = 0.0767, instead of: 1 [1]
+	EnormalMob_111(elec)_aniso: eta = 1.0000e+300, instead of: 5.8200e+30 [V^2/cm/s]
+	EnormalMob_111(hole)_aniso: B = 1.1300e+07, instead of: 9.9250e+06 [cm/s]
+	EnormalMob_111(hole)_aniso: C = 3.0500e+03, instead of: 2.9470e+03 [cm^(5/3)/(V^(2/3)s)]
+	EnormalMob_111(hole)_aniso: lambda = 0.0119, instead of: 0.0317 [1]
+	EnormalMob_111(hole)_aniso: delta = 4.1000e+15, instead of: 2.0546e+14 [cm^2/(Vs)]
+	EnormalMob_111(hole)_aniso: A = 2.18, instead of: 2 [1]
+	EnormalMob_111(hole)_aniso: alpha = 3.1300e-20, instead of: 0.0000e+00 [cm^3]
+	EnormalMob_111(hole)_aniso: nu = 0.123, instead of: 1 [1]
+	EnormalMob_111(hole)_aniso: eta = 1.0000e+300, instead of: 2.0546e+30 [V^2/cm/s]
+	UniBo2: a0_e = 4.65403
+	UniBo2: a1_e = -0.00876031
+	UniBo2: a2_e = 1.34037e-05
+	UniBo2: a3_e = -2.75108e-09
+	UniBo2: b0_e = -0.128302
+	UniBo2: b1_e = 0.00445552
+	UniBo2: b2_e = -1.0866e-05
+	UniBo2: b3_e = 9.23119e-09
+	UniBo2: b4_e = -1.82482e-12
+	UniBo2: b5_e = -4.82689e-15
+	UniBo2: b6_e = 1.09402e-17
+	UniBo2: b7_e = -1.24961e-20
+	UniBo2: b8_e = 7.55584e-24
+	UniBo2: b9_e = -2.28615e-27
+	UniBo2: b10_e = 2.73344e-31
+	UniBo2: c0_e = 7762.21
+	UniBo2: c1_e = 25.1889
+	UniBo2: c2_e = -0.00137417
+	UniBo2: c3_e = 0.000159525
+	UniBo2: d0_e = 710481
+	UniBo2: d1_e = 3985.94
+	UniBo2: d2_e = -7.19956
+	UniBo2: d3_e = 0.00696431
+	UniBo2: a0_h = 2.26018
+	UniBo2: a1_h = 0.0134001
+	UniBo2: a2_h = -5.87724e-06
+	UniBo2: a3_h = -1.14021e-09
+	UniBo2: b0_h = 0.058547
+	UniBo2: b1_h = -0.000195755
+	UniBo2: b2_h = 2.44357e-07
+	UniBo2: b3_h = -1.33202e-10
+	UniBo2: b4_h = 2.68082e-14
+	UniBo2: b5_h = 0
+	UniBo2: b6_h = 0
+	UniBo2: b7_h = 0
+	UniBo2: b8_h = 0
+	UniBo2: b9_h = 0
+	UniBo2: b10_h = 0
+	UniBo2: c0_h = 19539.9
+	UniBo2: c1_h = -104.441
+	UniBo2: c2_h = 0.498768
+	UniBo2: c3_h = 0
+	UniBo2: d0_h = 2.07712e+06
+	UniBo2: d1_h = 993.153
+	UniBo2: d2_h = 7.77769
+	UniBo2: d3_h = 0
+	Band2BandTunneling: Using parameter set (APath,BPath,Rpath,Ppath,Dcpath,Dvpath)
+	SchottkyResistance(hole): mt = 0.16, instead of: 0.19 [1]
+
+	Electron valleys are changed:
+	eValley(0.914, 0.196, 0.196, 0.0000e+00, 2, 0.5) 	 #[1,1,1,eV,1,eV^-1] 
+	eValley(0.196, 0.914, 0.196, 0.0000e+00, 2, 0.5) 	 #[1,1,1,eV,1,eV^-1] 
+	eValley(0.196, 0.196, 0.914, 0.0000e+00, 2, 0.5) 	 #[1,1,1,eV,1,eV^-1] 
+
+	Hole valleys are changed:
+	hValley(0.16, 0.16, 0.16, 0.0000e+00, 1, 0.0000e+00) 	 #[1,1,1,eV,1,eV^-1] 
+	hValley(0.49, 0.49, 0.49, 0.0000e+00, 1, 0.0000e+00) 	 #[1,1,1,eV,1,eV^-1] 
+	StressMobility: Nref = 2.0000e+17, instead of: 3.0000e+19 [cm^-3]
+
+
+=======
+Region: "bazza"
+  (material is "Silicon")
+=======
+  Model: "ComplexRefractiveIndex"
+    Parameter "Ck_carr_e" is modified from 3.71e-18 to 0
+    Parameter "Ck_carr_h" is modified from 3.33e-18 to 0
+  Model: "EnormalDependence_electron_100"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 2.71e+07
+    Parameter "C" is new with value equal to 13600
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_110"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_110/100"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_111"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 3.61e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_100"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 2.71e+07
+    Parameter "C" is new with value equal to 13600
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_110"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_110/100"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_111"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 3.61e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_hole_100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_110"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 16720
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.23e+16
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_110/100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 8360
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_111"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_110"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 16720
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.23e+16
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_110/100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 8360
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_111"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 10
+  Model: "SHEDistribution"
+    Parameter "dac_cl_e" is modified from 0 to 1.027e-05
+    Parameter "dac_cl_h" is modified from 0 to 6.29e-06
+    Parameter "dop_e" is modified from 0 to 1.25e+09
+    Parameter "dop_h" is modified from 0 to 8.7e+08
+  Model: "SchottkyResistance"
+    Parameter "mt_h" is modified from 0.19 to 0.16
+  Model: "StressMob"
+    Parameter "Nref" is modified from 3e+19 to 2e+17
+  Model: "UniBo2"
+    Parameter "a0_e" is new with value equal to 4.65403
+    Parameter "a0_h" is new with value equal to 2.26018
+    Parameter "a1_e" is new with value equal to -0.00876031
+    Parameter "a1_h" is new with value equal to 0.0134001
+    Parameter "a2_e" is new with value equal to 1.34037e-05
+    Parameter "a2_h" is new with value equal to -5.87724e-06
+    Parameter "a3_e" is new with value equal to -2.75108e-09
+    Parameter "a3_h" is new with value equal to -1.14021e-09
+    Parameter "b0_e" is new with value equal to -0.128302
+    Parameter "b0_h" is new with value equal to 0.058547
+    Parameter "b10_e" is new with value equal to 2.73344e-31
+    Parameter "b10_h" is new with value equal to 0
+    Parameter "b1_e" is new with value equal to 0.00445552
+    Parameter "b1_h" is new with value equal to -0.000195755
+    Parameter "b2_e" is new with value equal to -1.0866e-05
+    Parameter "b2_h" is new with value equal to 2.44357e-07
+    Parameter "b3_e" is new with value equal to 9.23119e-09
+    Parameter "b3_h" is new with value equal to -1.33202e-10
+    Parameter "b4_e" is new with value equal to -1.82482e-12
+    Parameter "b4_h" is new with value equal to 2.68082e-14
+    Parameter "b5_e" is new with value equal to -4.82689e-15
+    Parameter "b5_h" is new with value equal to 0
+    Parameter "b6_e" is new with value equal to 1.09402e-17
+    Parameter "b6_h" is new with value equal to 0
+    Parameter "b7_e" is new with value equal to -1.24961e-20
+    Parameter "b7_h" is new with value equal to 0
+    Parameter "b8_e" is new with value equal to 7.55584e-24
+    Parameter "b8_h" is new with value equal to 0
+    Parameter "b9_e" is new with value equal to -2.28615e-27
+    Parameter "b9_h" is new with value equal to 0
+    Parameter "c0_e" is new with value equal to 7762.21
+    Parameter "c0_h" is new with value equal to 19539.9
+    Parameter "c1_e" is new with value equal to 25.1889
+    Parameter "c1_h" is new with value equal to -104.441
+    Parameter "c2_e" is new with value equal to -0.00137417
+    Parameter "c2_h" is new with value equal to 0.498768
+    Parameter "c3_e" is new with value equal to 0.000159525
+    Parameter "c3_h" is new with value equal to 0
+    Parameter "d0_e" is new with value equal to 710481
+    Parameter "d0_h" is new with value equal to 2.07712e+06
+    Parameter "d1_e" is new with value equal to 3985.94
+    Parameter "d1_h" is new with value equal to 993.153
+    Parameter "d2_e" is new with value equal to -7.19956
+    Parameter "d2_h" is new with value equal to 7.77769
+    Parameter "d3_e" is new with value equal to 0.00696431
+    Parameter "d3_h" is new with value equal to 0
+  Using lattice crystal coordinate system from parameter file:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+
+=======
+Region: "emitter"
+  (material is "Silicon")
+=======
+  Model: "ComplexRefractiveIndex"
+    Parameter "Ck_carr_e" is modified from 3.71e-18 to 0
+    Parameter "Ck_carr_h" is modified from 3.33e-18 to 0
+  Model: "EnormalDependence_electron_100"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 2.71e+07
+    Parameter "C" is new with value equal to 13600
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_110"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_110/100"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_111"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 3.61e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_100"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 2.71e+07
+    Parameter "C" is new with value equal to 13600
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_110"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_110/100"
+    Parameter "A" is new with value equal to 2.688
+    Parameter "B" is new with value equal to 1.805e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.79e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_electron_aniso_111"
+    Parameter "A" is new with value equal to 2.58
+    Parameter "B" is new with value equal to 3.61e+07
+    Parameter "C" is new with value equal to 5100
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 2.74e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 3.58e+18
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0233
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.0767
+  Model: "EnormalDependence_hole_100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_110"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 16720
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.23e+16
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_110/100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 8360
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_111"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_110"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 16720
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 1.23e+16
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_110/100"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 3.02e+07
+    Parameter "C" is new with value equal to 8360
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "EnormalDependence_hole_aniso_111"
+    Parameter "A" is new with value equal to 2.18
+    Parameter "B" is new with value equal to 1.13e+07
+    Parameter "C" is new with value equal to 3050
+    Parameter "N0" is new with value equal to 1
+    Parameter "N1" is new with value equal to 1
+    Parameter "N2" is new with value equal to 1
+    Parameter "a_ac" is new with value equal to 1
+    Parameter "a_sr" is new with value equal to 1
+    Parameter "alpha" is new with value equal to 3.13e-20
+    Parameter "aother" is new with value equal to 0
+    Parameter "delta" is new with value equal to 4.1e+15
+    Parameter "eta" is new with value equal to 1e+300
+    Parameter "k" is new with value equal to 1
+    Parameter "l_crit" is new with value equal to 1e-06
+    Parameter "lambda" is new with value equal to 0.0119
+    Parameter "maxexp" is new with value equal to 1e+100
+    Parameter "nu" is new with value equal to 0.123
+  Model: "QuantumPotentialParam_hole"
+    Parameter "gamma" is modified from 5.6 to 10
+  Model: "SHEDistribution"
+    Parameter "dac_cl_e" is modified from 0 to 1.027e-05
+    Parameter "dac_cl_h" is modified from 0 to 6.29e-06
+    Parameter "dop_e" is modified from 0 to 1.25e+09
+    Parameter "dop_h" is modified from 0 to 8.7e+08
+  Model: "SchottkyResistance"
+    Parameter "mt_h" is modified from 0.19 to 0.16
+  Model: "StressMob"
+    Parameter "Nref" is modified from 3e+19 to 2e+17
+  Model: "UniBo2"
+    Parameter "a0_e" is new with value equal to 4.65403
+    Parameter "a0_h" is new with value equal to 2.26018
+    Parameter "a1_e" is new with value equal to -0.00876031
+    Parameter "a1_h" is new with value equal to 0.0134001
+    Parameter "a2_e" is new with value equal to 1.34037e-05
+    Parameter "a2_h" is new with value equal to -5.87724e-06
+    Parameter "a3_e" is new with value equal to -2.75108e-09
+    Parameter "a3_h" is new with value equal to -1.14021e-09
+    Parameter "b0_e" is new with value equal to -0.128302
+    Parameter "b0_h" is new with value equal to 0.058547
+    Parameter "b10_e" is new with value equal to 2.73344e-31
+    Parameter "b10_h" is new with value equal to 0
+    Parameter "b1_e" is new with value equal to 0.00445552
+    Parameter "b1_h" is new with value equal to -0.000195755
+    Parameter "b2_e" is new with value equal to -1.0866e-05
+    Parameter "b2_h" is new with value equal to 2.44357e-07
+    Parameter "b3_e" is new with value equal to 9.23119e-09
+    Parameter "b3_h" is new with value equal to -1.33202e-10
+    Parameter "b4_e" is new with value equal to -1.82482e-12
+    Parameter "b4_h" is new with value equal to 2.68082e-14
+    Parameter "b5_e" is new with value equal to -4.82689e-15
+    Parameter "b5_h" is new with value equal to 0
+    Parameter "b6_e" is new with value equal to 1.09402e-17
+    Parameter "b6_h" is new with value equal to 0
+    Parameter "b7_e" is new with value equal to -1.24961e-20
+    Parameter "b7_h" is new with value equal to 0
+    Parameter "b8_e" is new with value equal to 7.55584e-24
+    Parameter "b8_h" is new with value equal to 0
+    Parameter "b9_e" is new with value equal to -2.28615e-27
+    Parameter "b9_h" is new with value equal to 0
+    Parameter "c0_e" is new with value equal to 7762.21
+    Parameter "c0_h" is new with value equal to 19539.9
+    Parameter "c1_e" is new with value equal to 25.1889
+    Parameter "c1_h" is new with value equal to -104.441
+    Parameter "c2_e" is new with value equal to -0.00137417
+    Parameter "c2_h" is new with value equal to 0.498768
+    Parameter "c3_e" is new with value equal to 0.000159525
+    Parameter "c3_h" is new with value equal to 0
+    Parameter "d0_e" is new with value equal to 710481
+    Parameter "d0_h" is new with value equal to 2.07712e+06
+    Parameter "d1_e" is new with value equal to 3985.94
+    Parameter "d1_h" is new with value equal to 993.153
+    Parameter "d2_e" is new with value equal to -7.19956
+    Parameter "d2_h" is new with value equal to 7.77769
+    Parameter "d3_e" is new with value equal to 0.00696431
+    Parameter "d3_h" is new with value equal to 0
+  Using lattice crystal coordinate system from parameter file:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+
+================
+RegionInterface: "bazza/emitter"
+  (material interface is "Silicon/Silicon")
+================
+  Model: "SchottkyResistance"
+    Parameter "mt_h" is modified from 0.19 to 0.16
+  Model: "UniBo2"
+    Parameter "a0_e" is new with value equal to 4.65403
+    Parameter "a0_h" is new with value equal to 2.26018
+    Parameter "a1_e" is new with value equal to -0.00876031
+    Parameter "a1_h" is new with value equal to 0.0134001
+    Parameter "a2_e" is new with value equal to 1.34037e-05
+    Parameter "a2_h" is new with value equal to -5.87724e-06
+    Parameter "a3_e" is new with value equal to -2.75108e-09
+    Parameter "a3_h" is new with value equal to -1.14021e-09
+    Parameter "b0_e" is new with value equal to -0.128302
+    Parameter "b0_h" is new with value equal to 0.058547
+    Parameter "b10_e" is new with value equal to 2.73344e-31
+    Parameter "b10_h" is new with value equal to 0
+    Parameter "b1_e" is new with value equal to 0.00445552
+    Parameter "b1_h" is new with value equal to -0.000195755
+    Parameter "b2_e" is new with value equal to -1.0866e-05
+    Parameter "b2_h" is new with value equal to 2.44357e-07
+    Parameter "b3_e" is new with value equal to 9.23119e-09
+    Parameter "b3_h" is new with value equal to -1.33202e-10
+    Parameter "b4_e" is new with value equal to -1.82482e-12
+    Parameter "b4_h" is new with value equal to 2.68082e-14
+    Parameter "b5_e" is new with value equal to -4.82689e-15
+    Parameter "b5_h" is new with value equal to 0
+    Parameter "b6_e" is new with value equal to 1.09402e-17
+    Parameter "b6_h" is new with value equal to 0
+    Parameter "b7_e" is new with value equal to -1.24961e-20
+    Parameter "b7_h" is new with value equal to 0
+    Parameter "b8_e" is new with value equal to 7.55584e-24
+    Parameter "b8_h" is new with value equal to 0
+    Parameter "b9_e" is new with value equal to -2.28615e-27
+    Parameter "b9_h" is new with value equal to 0
+    Parameter "c0_e" is new with value equal to 7762.21
+    Parameter "c0_h" is new with value equal to 19539.9
+    Parameter "c1_e" is new with value equal to 25.1889
+    Parameter "c1_h" is new with value equal to -104.441
+    Parameter "c2_e" is new with value equal to -0.00137417
+    Parameter "c2_h" is new with value equal to 0.498768
+    Parameter "c3_e" is new with value equal to 0.000159525
+    Parameter "c3_h" is new with value equal to 0
+    Parameter "d0_e" is new with value equal to 710481
+    Parameter "d0_h" is new with value equal to 2.07712e+06
+    Parameter "d1_e" is new with value equal to 3985.94
+    Parameter "d1_h" is new with value equal to 993.153
+    Parameter "d2_e" is new with value equal to -7.19956
+    Parameter "d2_h" is new with value equal to 7.77769
+    Parameter "d3_e" is new with value equal to 0.00696431
+    Parameter "d3_h" is new with value equal to 0
+
+==========
+Electrode: "bazza_cont"
+==========
+  Model: "Bandgap"
+    Parameter "Chi0" is modified from 15.95 to 4.05
+    Parameter "Chi0_300" is modified from 15.95 to 4.07274
+    Parameter "Eg0" is modified from 0 to 1.16964
+    Parameter "Eg0_300" is modified from 0 to 1.12416
+    Parameter "alpha" is modified from 0 to 0.000473
+    Parameter "beta" is modified from 0 to 636
+    Parameter "dEg0(OldSlotboom)" is modified from 0 to -0.01595
+    Parameter "dEg0(Slotboom)" is modified from 0 to -0.004795
+    Parameter "dEg0(delAlamo)" is modified from 0 to -0.01407
+  Model: "SchottkyResistance"
+    Parameter "mt_h" is modified from 0.19 to 0.16
+  Model: "UniBo2"
+    Parameter "a0_e" is new with value equal to 4.65403
+    Parameter "a0_h" is new with value equal to 2.26018
+    Parameter "a1_e" is new with value equal to -0.00876031
+    Parameter "a1_h" is new with value equal to 0.0134001
+    Parameter "a2_e" is new with value equal to 1.34037e-05
+    Parameter "a2_h" is new with value equal to -5.87724e-06
+    Parameter "a3_e" is new with value equal to -2.75108e-09
+    Parameter "a3_h" is new with value equal to -1.14021e-09
+    Parameter "b0_e" is new with value equal to -0.128302
+    Parameter "b0_h" is new with value equal to 0.058547
+    Parameter "b10_e" is new with value equal to 2.73344e-31
+    Parameter "b10_h" is new with value equal to 0
+    Parameter "b1_e" is new with value equal to 0.00445552
+    Parameter "b1_h" is new with value equal to -0.000195755
+    Parameter "b2_e" is new with value equal to -1.0866e-05
+    Parameter "b2_h" is new with value equal to 2.44357e-07
+    Parameter "b3_e" is new with value equal to 9.23119e-09
+    Parameter "b3_h" is new with value equal to -1.33202e-10
+    Parameter "b4_e" is new with value equal to -1.82482e-12
+    Parameter "b4_h" is new with value equal to 2.68082e-14
+    Parameter "b5_e" is new with value equal to -4.82689e-15
+    Parameter "b5_h" is new with value equal to 0
+    Parameter "b6_e" is new with value equal to 1.09402e-17
+    Parameter "b6_h" is new with value equal to 0
+    Parameter "b7_e" is new with value equal to -1.24961e-20
+    Parameter "b7_h" is new with value equal to 0
+    Parameter "b8_e" is new with value equal to 7.55584e-24
+    Parameter "b8_h" is new with value equal to 0
+    Parameter "b9_e" is new with value equal to -2.28615e-27
+    Parameter "b9_h" is new with value equal to 0
+    Parameter "c0_e" is new with value equal to 7762.21
+    Parameter "c0_h" is new with value equal to 19539.9
+    Parameter "c1_e" is new with value equal to 25.1889
+    Parameter "c1_h" is new with value equal to -104.441
+    Parameter "c2_e" is new with value equal to -0.00137417
+    Parameter "c2_h" is new with value equal to 0.498768
+    Parameter "c3_e" is new with value equal to 0.000159525
+    Parameter "c3_h" is new with value equal to 0
+    Parameter "d0_e" is new with value equal to 710481
+    Parameter "d0_h" is new with value equal to 2.07712e+06
+    Parameter "d1_e" is new with value equal to 3985.94
+    Parameter "d1_h" is new with value equal to 993.153
+    Parameter "d2_e" is new with value equal to -7.19956
+    Parameter "d2_h" is new with value equal to 7.77769
+    Parameter "d3_e" is new with value equal to 0.00696431
+    Parameter "d3_h" is new with value equal to 0
+
+==========
+Electrode: "emitter_cont"
+==========
+  Model: "Bandgap"
+    Parameter "Chi0" is modified from 15.95 to 4.05
+    Parameter "Chi0_300" is modified from 15.95 to 4.07274
+    Parameter "Eg0" is modified from 0 to 1.16964
+    Parameter "Eg0_300" is modified from 0 to 1.12416
+    Parameter "alpha" is modified from 0 to 0.000473
+    Parameter "beta" is modified from 0 to 636
+    Parameter "dEg0(OldSlotboom)" is modified from 0 to -0.01595
+    Parameter "dEg0(Slotboom)" is modified from 0 to -0.004795
+    Parameter "dEg0(delAlamo)" is modified from 0 to -0.01407
+  Model: "SchottkyResistance"
+    Parameter "mt_h" is modified from 0.19 to 0.16
+  Model: "UniBo2"
+    Parameter "a0_e" is new with value equal to 4.65403
+    Parameter "a0_h" is new with value equal to 2.26018
+    Parameter "a1_e" is new with value equal to -0.00876031
+    Parameter "a1_h" is new with value equal to 0.0134001
+    Parameter "a2_e" is new with value equal to 1.34037e-05
+    Parameter "a2_h" is new with value equal to -5.87724e-06
+    Parameter "a3_e" is new with value equal to -2.75108e-09
+    Parameter "a3_h" is new with value equal to -1.14021e-09
+    Parameter "b0_e" is new with value equal to -0.128302
+    Parameter "b0_h" is new with value equal to 0.058547
+    Parameter "b10_e" is new with value equal to 2.73344e-31
+    Parameter "b10_h" is new with value equal to 0
+    Parameter "b1_e" is new with value equal to 0.00445552
+    Parameter "b1_h" is new with value equal to -0.000195755
+    Parameter "b2_e" is new with value equal to -1.0866e-05
+    Parameter "b2_h" is new with value equal to 2.44357e-07
+    Parameter "b3_e" is new with value equal to 9.23119e-09
+    Parameter "b3_h" is new with value equal to -1.33202e-10
+    Parameter "b4_e" is new with value equal to -1.82482e-12
+    Parameter "b4_h" is new with value equal to 2.68082e-14
+    Parameter "b5_e" is new with value equal to -4.82689e-15
+    Parameter "b5_h" is new with value equal to 0
+    Parameter "b6_e" is new with value equal to 1.09402e-17
+    Parameter "b6_h" is new with value equal to 0
+    Parameter "b7_e" is new with value equal to -1.24961e-20
+    Parameter "b7_h" is new with value equal to 0
+    Parameter "b8_e" is new with value equal to 7.55584e-24
+    Parameter "b8_h" is new with value equal to 0
+    Parameter "b9_e" is new with value equal to -2.28615e-27
+    Parameter "b9_h" is new with value equal to 0
+    Parameter "c0_e" is new with value equal to 7762.21
+    Parameter "c0_h" is new with value equal to 19539.9
+    Parameter "c1_e" is new with value equal to 25.1889
+    Parameter "c1_h" is new with value equal to -104.441
+    Parameter "c2_e" is new with value equal to -0.00137417
+    Parameter "c2_h" is new with value equal to 0.498768
+    Parameter "c3_e" is new with value equal to 0.000159525
+    Parameter "c3_h" is new with value equal to 0
+    Parameter "d0_e" is new with value equal to 710481
+    Parameter "d0_h" is new with value equal to 2.07712e+06
+    Parameter "d1_e" is new with value equal to 3985.94
+    Parameter "d1_h" is new with value equal to 993.153
+    Parameter "d2_e" is new with value equal to -7.19956
+    Parameter "d2_h" is new with value equal to 7.77769
+    Parameter "d3_e" is new with value equal to 0.00696431
+    Parameter "d3_h" is new with value equal to 0
+
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on the following species from the doping file:
+        PhosphorusActiveConcentration (donor)
+        BoronActiveConcentration (acceptor)
+Net doping concentration (DopingConcentration):
+    obtained from doping file
+Total doping concentration (TotalConcentration):
+    recomputed from acceptor and donor concentrations
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.10821
+    The Electron DOS: 2.8583e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.62578
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.17e+02                                                      0.01
+    1      6.91e+00   1.00e+00   1.04e+01   1.13e+05    0         1      0.02
+    2      4.44e+00   1.00e+00   3.44e+00   1.07e+05    0         1      0.03
+    3      1.51e+00   1.00e+00   6.05e-01   1.46e+04    0         1      0.04
+    4      8.70e-02   1.00e+00   7.53e-02   1.42e+03    0         1      0.05
+    5      3.57e-04   1.00e+00   5.16e-03   1.00e+02    0         1      0.06
+    6      1.20e-08   1.00e+00   1.86e-05   3.54e-01    0         1      0.07
+Finished, because...
+Error smaller than 1 ( 3.5382E-01 ).
+
+Accumulated times:
+Assembly time:        0.02 s
+Solve time:      0.05 s
+Total time:      0.07 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -3.102E-18        -2.037E-30       -3.102E-18
+ emitter_con  0.000E+00       3.102E-18         2.037E-30        3.102E-18
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 100 
+    )
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.66e-06                                                      0.09
+    1      4.85e-05   1.00e+00   3.06e-10   1.77e-05    0         1      0.30
+Finished, because...
+Error smaller than 1 ( 1.7711E-05 ).
+
+Accumulated times:
+Assembly time:        0.21 s
+Solve time:      0.08 s
+Total time:      0.30 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -1.373E-16        -1.377E-31       -1.373E-16
+ emitter_con  0.000E+00       1.373E-16         1.377E-31        1.373E-16
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.2, 
+      Increment : 1.35, Decrement : 2, 
+      Goal values :
+        Contact emitter_cont : 100V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 100 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.43e+09                                                      0.10
+    1      8.04e+09   1.00e+00   3.14e+01   1.33e+07    0         1      0.32
+    2      3.02e+09   1.00e+00   1.09e+01   8.82e+06    0         1      0.54
+    3      6.82e+07   1.00e+00   2.30e+00   1.08e+06    0         1      0.75
+    4      6.07e+03   1.00e+00   1.18e+00   6.38e+03    0         1      0.96
+    5      3.27e-04   1.00e+00   1.48e-01   1.00e+01    0         1      1.16
+    6      1.04e-04   1.00e+00   1.31e-02   1.69e-04    0         1      1.37
+Finished, because...
+Error smaller than 1 ( 1.6933E-04 ).
+
+Accumulated times:
+Assembly time:        0.89 s
+Solve time:      0.48 s
+Total time:      1.37 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       4.085E-17        -5.375E-18        3.547E-17
+ emitter_con  1.000E+00      -4.085E-17         5.375E-18       -3.547E-17
+
+Computing step from t=0.01 to t=0.0223333 (Stepsize: 0.0123333) :
+Extrapolating values for t = 0.0223333 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.17e+01                                                      0.11
+    1      6.94e+05   1.00e+00   3.89e+00   6.65e+05    0         1      0.32
+    2      1.86e+05   1.00e+00   4.25e+00   5.35e+06    0         1      0.53
+    3      1.21e+04   1.00e+00   6.61e-01   3.94e+03    0         1      0.74
+    4      1.11e+01   1.00e+00   1.11e-01   3.20e+02    0         1      0.95
+    5      1.67e-04   1.00e+00   1.39e-02   5.67e-01    0         1      1.15
+Finished, because...
+Error smaller than 1 ( 5.6678E-01 ).
+
+Accumulated times:
+Assembly time:        0.76 s
+Solve time:      0.38 s
+Total time:      1.15 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       3.740E-17        -5.401E-18        3.200E-17
+ emitter_con  2.233E+00      -3.740E-17         5.401E-18       -3.200E-17
+
+Computing step from t=0.0223333 to t=0.0378322 (Stepsize: 0.0154989) :
+Extrapolating values for t = 0.0378322 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.03e+01                                                      0.11
+    1      5.23e+05   1.00e+00   2.34e+00   4.50e+04    0         1      0.32
+    2      5.62e+03   1.00e+00   1.78e+00   6.03e+02    0         1      0.53
+    3      7.31e-01   1.00e+00   9.40e-01   2.10e+00    0         1      0.74
+    4      3.67e-04   1.00e+00   7.49e-02   2.46e-04    0         1      0.95
+Finished, because...
+Error smaller than 1 ( 2.4648E-04 ).
+
+Accumulated times:
+Assembly time:        0.64 s
+Solve time:      0.30 s
+Total time:      0.95 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -1.409E-16        -5.419E-18       -1.464E-16
+ emitter_con  3.783E+00       1.409E-16         5.419E-18        1.464E-16
+
+Computing step from t=0.0378322 to t=0.0576708 (Stepsize: 0.0198386) :
+Extrapolating values for t = 0.0576708 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.07e+01                                                      0.12
+    1      7.00e+05   1.00e+00   9.12e-01   1.32e+06    0         1      0.33
+    2      9.08e+05   1.00e+00   7.75e-01   9.27e+06    0         1      0.54
+    3      2.86e+04   1.00e+00   2.00e-01   1.85e+04    0         1      0.75
+    4      2.69e-02   1.00e+00   6.58e-02   7.26e+02    0         1      0.96
+    5      3.84e-04   1.00e+00   1.52e-03   3.69e-03    0         1      1.16
+Finished, because...
+Error smaller than 1 ( 3.6920E-03 ).
+
+Accumulated times:
+Assembly time:        0.76 s
+Solve time:      0.40 s
+Total time:      1.16 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -2.064E-16        -5.453E-18       -2.118E-16
+ emitter_con  5.767E+00       2.064E-16         5.453E-18        2.118E-16
+
+Computing step from t=0.0576708 to t=0.0826013 (Stepsize: 0.0249305) :
+Extrapolating values for t = 0.0826013 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.54e+01                                                      0.11
+    1      1.25e+06   1.00e+00   1.24e+00   6.33e+03    0         1      0.32
+    2      4.10e+03   1.00e+00   4.17e-01   1.32e+03    0         1      0.53
+    3      4.21e-01   1.00e+00   1.61e-02   1.34e+00    0         1      0.74
+    4      7.81e-04   1.00e+00   9.25e-05   8.12e-05    0         1      0.95
+Finished, because...
+Error smaller than 1 ( 8.1198E-05 ).
+
+Accumulated times:
+Assembly time:        0.64 s
+Solve time:      0.29 s
+Total time:      0.95 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       2.563E-16        -5.476E-18        2.508E-16
+ emitter_con  8.260E+00      -2.563E-16         5.476E-18       -2.508E-16
+
+Computing step from t=0.0826013 to t=0.114512 (Stepsize: 0.031911) :
+Extrapolating values for t = 0.114512 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.09e+01                                                      0.12
+    1      1.44e+05   1.00e+00   1.27e+00   8.32e+05    0         1      0.33
+    2      3.85e+05   1.00e+00   7.59e-01   7.75e+06    0         1      0.54
+    3      1.69e+04   1.00e+00   4.51e-01   1.23e+04    0         1      0.75
+    4      7.34e-03   1.00e+00   1.69e-01   1.58e+01    0         1      0.95
+    5      7.93e-04   1.00e+00   3.43e-03   3.08e-05    0         1      1.16
+Finished, because...
+Error smaller than 1 ( 3.0793E-05 ).
+
+Accumulated times:
+Assembly time:        0.76 s
+Solve time:      0.40 s
+Total time:      1.16 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -8.708E-17        -5.498E-18       -9.258E-17
+ emitter_con  1.145E+01       8.708E-17         5.498E-18        9.258E-17
+
+Computing step from t=0.114512 to t=0.154614 (Stepsize: 0.0401015) :
+Extrapolating values for t = 0.154614 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.51e+01                                                      0.11
+    1      6.89e+05   1.00e+00   1.06e+00   3.60e+03    0         1      0.32
+    2      2.32e+02   1.00e+00   2.01e-01   4.78e+02    0         1      0.53
+    3      1.70e-03   1.00e+00   3.40e-03   8.90e-02    0         1      0.74
+Finished, because...
+Error smaller than 1 ( 8.9016E-02 ).
+
+Accumulated times:
+Assembly time:        0.50 s
+Solve time:      0.23 s
+Total time:      0.74 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       4.840E-15        -5.520E-18        4.834E-15
+ emitter_con  1.546E+01      -4.840E-15         5.520E-18       -4.834E-15
+
+Computing step from t=0.154614 to t=0.206879 (Stepsize: 0.0522656) :
+Extrapolating values for t = 0.206879 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.65e+01                                                      0.12
+    1      3.38e+05   1.00e+00   8.55e-01   1.00e+04    0         1      0.33
+    2      3.30e+04   1.00e+00   4.41e-01   2.56e+02    0         1      0.54
+    3      3.65e+02   1.00e+00   1.40e-01   3.03e+01    0         1      0.75
+    4      4.65e-02   1.00e+00   7.67e-03   3.44e-01    0         1      0.96
+Finished, because...
+Error smaller than 1 ( 3.4399E-01 ).
+
+Accumulated times:
+Assembly time:        0.64 s
+Solve time:      0.32 s
+Total time:      0.96 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       9.058E-14        -5.546E-18        9.058E-14
+ emitter_con  2.069E+01      -9.058E-14         5.546E-18       -9.058E-14
+
+Computing step from t=0.206879 to t=0.273779 (Stepsize: 0.0669) :
+Extrapolating values for t = 0.273779 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.17e+01                                                      0.11
+    1      9.45e+05   1.00e+00   2.25e+00   1.27e+07    0         1      0.33
+    2      8.45e+05   1.00e+00   1.29e+00   5.36e+04    0         1      0.54
+    3      3.33e+00   1.00e+00   1.30e-01   5.31e+02    0         1      0.74
+    4      1.78e-03   1.00e+00   3.54e-01   4.03e+00    0         1      0.95
+    5      1.78e-03   1.00e+00   3.17e-03   1.22e-06    0         1      1.16
+Finished, because...
+Error smaller than 1 ( 1.2177E-06 ).
+
+Accumulated times:
+Assembly time:        0.77 s
+Solve time:      0.38 s
+Total time:      1.16 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       1.642E-16        -5.569E-18        1.587E-16
+ emitter_con  2.738E+01      -1.642E-16         5.569E-18       -1.587E-16
+
+Computing step from t=0.273779 to t=0.35785 (Stepsize: 0.084071) :
+Extrapolating values for t = 0.35785 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.26e+01                                                      0.12
+    1      1.67e+06   1.00e+00   1.96e+00   2.67e+08    0         1      0.33
+    2      1.47e+06   1.00e+00   1.55e+00   1.03e+05    0         1      0.54
+    3      1.33e+01   1.00e+00   8.30e-01   2.91e+04    0         1      0.75
+    4      2.28e-03   1.00e+00   4.92e-01   2.45e-01    0         1      0.96
+Finished, because...
+Error smaller than 1 ( 2.4532E-01 ).
+
+Accumulated times:
+Assembly time:        0.65 s
+Solve time:      0.29 s
+Total time:      0.96 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       5.658E-17        -5.595E-18        5.099E-17
+ emitter_con  3.579E+01      -5.658E-17         5.595E-18       -5.099E-17
+
+Computing step from t=0.35785 to t=0.465461 (Stepsize: 0.107611) :
+Extrapolating values for t = 0.465461 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.96e+01                                                      0.12
+    1      4.28e+05   1.00e+00   1.48e-01   4.53e+05    0         1      0.33
+    2      1.11e+04   1.00e+00   2.35e-01   1.18e+07    0         1      0.54
+    3      1.31e+05   1.00e+00   6.60e-01   3.75e+06    0         1      0.75
+    4      3.90e+02   1.00e+00   1.34e-01   2.69e+02    0         1      0.96
+    5      1.91e-03   1.00e+00   1.23e-01   1.53e+00    0         1      1.17
+    6      1.91e-03   1.00e+00   3.30e-04   6.20e-07    0         1      1.38
+Finished, because...
+Error smaller than 1 ( 6.1993E-07 ).
+
+Accumulated times:
+Assembly time:        0.90 s
+Solve time:      0.48 s
+Total time:      1.38 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -9.375E-17        -5.627E-18       -9.938E-17
+ emitter_con  4.655E+01       9.375E-17         5.627E-18        9.938E-17
+
+Computing step from t=0.465461 to t=0.598181 (Stepsize: 0.13272) :
+Extrapolating values for t = 0.598181 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.07e+02                                                      0.12
+    1      2.10e+06   1.00e+00   4.22e+00   4.95e+03    0         1      0.33
+    2      4.97e+01   1.00e+00   3.47e-01   1.00e+03    0         1      0.53
+    3      3.74e-03   1.00e+00   6.79e-03   3.13e-02    0         1      0.74
+Finished, because...
+Error smaller than 1 ( 3.1297E-02 ).
+
+Accumulated times:
+Assembly time:        0.50 s
+Solve time:      0.24 s
+Total time:      0.74 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -4.784E-17        -5.659E-18       -5.350E-17
+ emitter_con  5.982E+01       4.784E-17         5.659E-18        5.350E-17
+
+Computing step from t=0.598181 to t=0.77116 (Stepsize: 0.172979) :
+Extrapolating values for t = 0.77116 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.52e+01                                                      0.12
+    1      1.08e+06   1.00e+00   3.17e-01   1.34e+03    0         1      0.33
+    2      2.08e+02   1.00e+00   1.39e-01   1.43e+01    0         1      0.55
+    3      7.58e-03   1.00e+00   3.99e-02   8.48e-02    0         1      0.76
+Finished, because...
+Error smaller than 1 ( 8.4813E-02 ).
+
+Accumulated times:
+Assembly time:        0.52 s
+Solve time:      0.24 s
+Total time:      0.76 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00       7.467E-17        -5.702E-18        6.897E-17
+ emitter_con  7.712E+01      -7.467E-17         5.702E-18       -6.897E-17
+
+Computing step from t=0.77116 to t=0.97116 (Stepsize: 0.2) :
+Extrapolating values for t = 0.97116 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.12e+01                                                      0.11
+    1      2.19e+06   1.00e+00   9.52e-01   6.60e+05    0         1      0.33
+    2      9.16e+04   1.00e+00   8.41e-01   2.51e+07    0         1      0.54
+    3      1.87e+06   1.00e+00   2.98e+00   4.73e+04    0         1      0.76
+    4      2.83e+01   1.00e+00   1.31e-01   1.79e+02    0         1      0.97
+    5      3.77e-03   1.00e+00   3.06e-01   1.09e+00    0         1      1.17
+    6      3.77e-03   1.00e+00   1.28e-03   7.68e-07    0         1      1.38
+Finished, because...
+Error smaller than 1 ( 7.6841E-07 ).
+
+Accumulated times:
+Assembly time:        0.90 s
+Solve time:      0.48 s
+Total time:      1.38 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -1.168E-18        -5.749E-18       -6.916E-18
+ emitter_con  9.712E+01       1.168E-18         5.749E-18        6.916E-18
+
+Computing step from t=0.97116 to t=1 (Stepsize: 0.02884) :
+Extrapolating values for t = 1 ... done.
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.45e+01                                                      0.11
+    1      1.21e+05   1.00e+00   1.02e+00   9.04e+02    0         1      0.33
+    2      1.93e+00   1.00e+00   4.67e-03   1.59e+01    0         1      0.54
+    3      2.27e-03   1.00e+00   3.87e-06   3.29e-02    0         1      0.75
+Finished, because...
+Error smaller than 1 ( 3.2900E-02 ).
+
+Accumulated times:
+Assembly time:        0.51 s
+Solve time:      0.24 s
+Total time:      0.75 s
+
+contact        voltage     electron current    hole current  conduction current
+ bazza_cont   0.000E+00      -1.183E-17        -5.754E-18       -1.759E-17
+ emitter_con  1.000E+02       1.183E-17         5.754E-18        1.759E-17
+
+
+Finished, because...
+Curve trace finished.
+
+Writing plot 'Lesson2_n1_des.tdr' (TDR format) ... done.
+
+Fri Sep 17 13:05:13 2021: checked in 1 sdevice license(s)
+
+******************************************************************************
+Sentaurus Device peak memory usage: 293 megabytes
+Sentaurus Device simulation times:
+  wallclock: 17.01 s
+  total cpu: 16.86 s
+Sentaurus Device simulation finished (Date: Fri Sep 17 13:05:13 2021  (MSK)).
+********************************* Good Bye ! *********************************

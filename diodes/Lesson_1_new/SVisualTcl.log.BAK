@@ -1,0 +1,25 @@
+###########################################
+# Sentaurus Visual Q-2019.12.
+# Tcl log file.
+#------------------------------------------
+# Date: окт. 15, 2021. 12:44:21.
+# Version: 30.0.1295 (1.1295)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: fet43.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-193.6.3.el8_2.x86_64.
+###########################################
+
+load_file /mnt/diskX/8209/Koryagin/Lesson_1_new/Lesson2_new_pr.tdr
+create_plot -dataset Lesson2_new_pr
+select_plots {Plot_Lesson2_new_pr}
+#-> Plot_Lesson2_new_pr
+#-> Plot_Lesson2_new_pr
+#-> Lesson2_new_pr
+set_field_prop -plot Plot_Lesson2_new_pr -geom Lesson2_new_pr eCurrentDensity -show_bands
+#-> 0
+set_field_prop -plot Plot_Lesson2_new_pr -geom Lesson2_new_pr hCurrentDensity -show_bands
+#-> 0
+exit 0
+ 
