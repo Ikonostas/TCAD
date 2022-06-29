@@ -1,0 +1,74 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version L-2016.03                           ***
+***                         (1.8, x86_64, Linux)                         ***
+***                                                                      ***
+***                       Copyright (C) 2005-2016                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Jan 21 14:33:33 PST 2016 on: tcadbld1
+Running on: fet41.fel.eltech.ru
+Hardware type: x86_64
+OS name: Linux
+OS release: 2.6.32-642.1.1.el6.x86_64
+OS version: #1 SMP Tue May 31 21:57:07 UTC 2016
+Process ID: 2080
+
+Flags used: -a
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  25878 (tree) + 1159 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (26062 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   26058 points.
+   51466 elements.
+       5 regions.
+Max. connectivity = 7 located at (35;127.681)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %       29   1   1   2   2   1   2  29  33  .   .                         
+---------------------------------------------------------------------------------
+minAngle: 10.2654  maxAngle: 107.041
+nVerts = 26058  nTris = 51466  nMats = 2
+max connectivity (tris per node): 7
+bmin: -0 -0
+bmax: 280 204.29
+min edgeLength: 0.065625  [near (247.767 204.29)]
+min volume: 0.00324985  max volume: 446.884  Total volume: 57201.2
+bbox  volume: 57201.2
+Are all boundaries on bbox? true
+=================================================================================
+Interpolating data...done.
+done.
+Saving file /mnt/DiskX/6205/Lemeshko/WelcomeToHell/DeadTwo/DiabolicTranzistor_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:      5.97s       100%
+                       Rate of #Vertices:  4.36e+03
+                          Rate of #Edges:  8.43e+03
+                          Rate of #Faces:  8.62e+03
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
